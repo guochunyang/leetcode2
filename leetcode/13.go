@@ -87,6 +87,7 @@ func romanToInt(s string) int {
 			prev = current
 		}
 	}
+	// 不要遗漏这个数据
 	sum += charMaps[prev]
 	return sum
 }
